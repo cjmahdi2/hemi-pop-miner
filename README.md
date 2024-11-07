@@ -45,7 +45,7 @@ screen -S hemi
 **2. Replace your private key with `PRIVATE_KEY`**
 ```bash
 echo 'export POPM_BTC_PRIVKEY=PRIVATE_KEY' >> ~/.bashrc
-echo 'export POPM_STATIC_FEE=50' >> ~/.bashrc
+echo 'export POPM_STATIC_FEE=350' >> ~/.bashrc
 echo 'export POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public' >> ~/.bashrc
 source ~/.bashrc
 ```
